@@ -21,8 +21,7 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
 * **4K Video Upscaling:** High-bandwidth video-to-video upscaling.
     * Uses **Nvidia RTX Video Super Resolution (VSR)**. *(Note: See documentation for essential post node install fix).*
 * **Photorealistic Refinement:** Advanced Image-to-Image filtering using **Z-image Turbo** to enhance texture detail and material response.
-* **VFX ControlNet Generation:** Video-to-video multi-control generation (Masks, Canny, Pose, Depth, and Camera Tracking).
-    * Leverages the **Wan VACE Skyreels** combined model for temporal stability.
+* **VFX ControlNet Generation:** Video-to-video multi-control generation (Masks, Canny, Depth, and Normal).
 
 ---
 *Note: These workflows are designed for professional VFX environments and have been tested on 24GB VRAM configurations.*
