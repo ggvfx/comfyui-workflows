@@ -1,6 +1,5 @@
 # comfyui-workflows
 ### Production-Ready Generative AI Pipelines
-### Placeholder README - Update to come
 
 A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, including camera synchronization, cinematic relighting, and 4K upscaling.
 
@@ -8,6 +7,7 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
 
 ### 🎥 Camera Control & Motion
 * **SCAIL Motion Transfer:** Image-to-Video generation using **Wan 2.1 SCAIL** for precise pose and camera matching via driving video.
+![GGVFX_Cam_SCAIL_Match](images/GGVFX_Cam_SCAIL_Match_01.png)(images/GGVFX_Cam_SCAIL_Match_02.png)
 * **Spatial Re-projection:** Image-to-Image multi-angle generation.
     * Features a **Camera Angle Gizmo** for intuitive perspective control.
     * Powered by **Qwen Image Edit 2511**.
