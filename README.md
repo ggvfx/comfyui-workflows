@@ -3,7 +3,7 @@
 
 A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, including camera synchronization, cinematic relighting, and 4K upscaling.
 
-[ComfyUI Workflows demo video] https://vimeo.com/manage/videos/1180167988
+[ComfyUI Workflows demo video](https://vimeo.com/manage/videos/1180167988)
 
 ## 📁 Workflow Categories
 
