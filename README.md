@@ -8,7 +8,7 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
 ### 🎥 Camera Control & Motion
 * **SCAIL Motion Transfer:** Image-to-Video generation using **Wan 2.1 SCAIL** for precise pose and camera matching via driving video.
 ![GGVFX_Cam_SCAIL_Match_01](images/GGVFX_Cam_SCAIL_Match_01.png)
-![GGVFX_Cam_SCAIL_Match_02](images/GGVFX_Cam_SCAIL_Match_02.png)
+![GGVFX_Cam_SCAIL_Match_02](images/GGVFX_Cam_SCAIL_Match_02.jpg)
 
 * **Spatial Re-projection:** Image-to-Image multi-angle generation.
   * Features a **Camera Angle Gizmo** for intuitive perspective control.
