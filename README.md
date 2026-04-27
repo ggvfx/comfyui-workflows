@@ -23,26 +23,31 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
 
 
 * **Shot Paint Outs & Set Element Replacement**
-  A production workflow for clean plating, paint outs, and replacement of set elements using **Wan VACE** within ComfyUI, with final compositing in **Foundry Nuke**. Developed and successfully tested in active VFX production.
+  A production workflow for video clean plating, paint outs, and replacement of set elements using **Wan VACE** within ComfyUI, with final compositing in **Foundry Nuke**. Developed and successfully tested in active VFX production.
 ![GGVFX_Pwf_Replace_01](images/GGVFX_Pwf_Replace_01.png)
 ![GGVFX_Pwf_Replace_02](images/GGVFX_Pwf_Replace_02.png)
 ![GGVFX_Pwf_Replace_03](images/GGVFX_Pwf_Replace_03.png)
 ![GGVFX_Pwf_Replace_04](images/GGVFX_Pwf_Replace_04.png)
 
 * **Background Replacement with Unreal Engine Grey Box Driving Plates**
-  End-to-end background replacement pipeline using **Wan VACE**:
-  * **Unreal Engine** renders a grey box driving plate from a tracked bluescreen shot
+  End-to-end video background replacement pipeline using **Wan VACE**:
+  * **Unreal Engine** for a grey box driving plate from a tracked bluescreen shot
   * Grey box plate drives **ControlNets** (used with generated first frame and reference set concepts, matte paintings, and GenAI reference frames)
-  * Composited in **Foundry Nuke** with bluescreen FG elements
   * Tested with grey box alone and with a pre-keyed FG plate over the grey box for tighter ControlNet guidance
+  * Composited in **Foundry Nuke** with bluescreen FG elements, color correct and fixes
   * Results benchmarked against **Seedance 2** generations using same driving plate and reference images
   Developed in active VFX production, testing ongoing.
+![GGVFX_Pwf_BGGen_01](images/GGVFX_Pwf_BGGen_01.png)
+![GGVFX_Pwf_BGGen_02](images/GGVFX_Pwf_BGGen_02.png)
+![GGVFX_Pwf_BGGen_03](images/GGVFX_Pwf_BGGen_03.png)
+![GGVFX_Pwf_BGGen_04](images/GGVFX_Pwf_BGGen_04.png)
+![GGVFX_Pwf_BGGen_05](images/GGVFX_Pwf_BGGen_05.png)
 
 * **Long Establishing Shots via Iterative Generation** *(WIP)*
-  A workflow for generating shots that exceed standard clip generation lengths. Uses Unreal Engine grey box driving plates, breaking a long shot into sequential iterations where each generation references previously generated frames. Final sections are comped together with cinematic and action elements added in post.
+  A workflow for generating video shots that exceed standard clip generation lengths. Uses Unreal Engine grey box driving plates, breaking a long shot into sequential iterations where each generation references previously generated frames. Final sections are comped together with cinematic and action elements added in post.
 
 * **Interactive Hologram Compositing** *(WIP)*
-  A compositing workflow for translucent, interactive story elements — for example, in-world holograms that respond to actor performances. Combines **Foundry Nuke** compositing with **ComfyUI** generation passes to achieve physically plausible interactive light and translucency.
+  A video compositing workflow for translucent, interactive story elements — for example, in-world holograms that respond to actor performances. Combines **Foundry Nuke** compositing with **ComfyUI** generation passes to achieve physically plausible interactive light and translucency.
 
 ---
 
