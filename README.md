@@ -10,9 +10,9 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
 
 ## 🆕 What's New — April/May 2026
 
-- **Shot Paint Outs & Replacements** — Wan VACE + Foundry Nuke + Beeble AI pipeline for production-grade clean plating and set element replacement
-- **Background Replacement** — Unreal Engine grey box driving plates + ControlNet + Wan VACE, tested against Seedance 2; full comp in Nuke with bluescreen FG elements
-- *(WIP)* **Long Establishing Shots** — Iterative generation beyond standard clip length using Unreal grey box plates, targeting Seedance 2.0
+- **Shot Paint Outs & Replacements** — Wan VACE + Foundry Nuke pipeline for production-grade clean plating and set element replacement
+- **Background Replacement** — Unreal Engine grey box driving video + Wan VACE (+ ControlNet) OR + SeeDance 2.0, for environment generation; full composite in Nuke with bluescreen foreground elements
+- *(WIP)* **Long Establishing Shots** — Iterative generation beyond standard clip length using Unreal grey box driving videos
 - *(WIP)* **Interactive Hologram Compositing** — Translucent, actor-reactive holographic elements via Nuke + ComfyUI
 
 ---
@@ -32,13 +32,12 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
 ![GGVFX_Pwf_Replace_04](images/GGVFX_Pwf_Replace_04.png)
 
 * **Background Replacement with Unreal Engine Grey Box Driving Plates**
-  End-to-end video background replacement pipeline using **Wan VACE**:
-  * **Unreal Engine** for a grey box driving plate from a tracked bluescreen shot
-  * Grey box plate drives **ControlNets** (used with generated first frame and reference set concepts, matte paintings, and GenAI reference frames)
+  End-to-end video background replacement pipeline using **Wan VACE** or **SeeDance 2.0**:
+  * **Unreal Engine** for a grey box driving video from a camera tracked bluescreen shot
+  * Direct use of grey box driving video for **SeeDance 2.0** and converted to depth **ControlNets** for **Wan VACE** (used with generated first frame and reference set concepts, matte paintings, and GenAI reference frames)
   * Tested with grey box alone and with a pre-keyed FG plate over the grey box for tighter ControlNet guidance
   * Composited in **Foundry Nuke** with bluescreen FG elements, color correct and fixes
   * Tests include occluded geometry — handling views and surfaces not present in the first frame reference image, as revealed by camera movement
-  * Results benchmarked against **Seedance 2** generations using same driving plate and reference images
 
 *Developed in active VFX production, testing ongoing.*
 
