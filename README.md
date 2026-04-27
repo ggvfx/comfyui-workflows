@@ -23,7 +23,9 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
 
 * **Shot Paint Outs & Set Element Replacement**
   A production workflow for video clean plating, paint outs, and replacement of set elements using **Wan VACE** within ComfyUI, with final compositing in **Foundry Nuke**. 
-  *Developed and successfully tested in active VFX production*
+
+*Developed and successfully tested in active VFX production*
+
 ![GGVFX_Pwf_Replace_01](images/GGVFX_Pwf_Replace_01.png)
 ![GGVFX_Pwf_Replace_02](images/GGVFX_Pwf_Replace_02.png)
 ![GGVFX_Pwf_Replace_03](images/GGVFX_Pwf_Replace_03.png)
@@ -37,7 +39,9 @@ A collection of specialized ComfyUI workflows optimized for high-end VFX tasks, 
   * Composited in **Foundry Nuke** with bluescreen FG elements, color correct and fixes
   * Tests include occluded geometry — handling views and surfaces not present in the first frame reference image, as revealed by camera movement
   * Results benchmarked against **Seedance 2** generations using same driving plate and reference images
-  *Developed in active VFX production, testing ongoing.*
+
+*Developed in active VFX production, testing ongoing.*
+
 ![GGVFX_Pwf_BGGen_01](images/GGVFX_Pwf_BGGen_01.png)
 ![GGVFX_Pwf_BGGen_02](images/GGVFX_Pwf_BGGen_02.png)
 ![GGVFX_Pwf_BGGen_03](images/GGVFX_Pwf_BGGen_03.png)
